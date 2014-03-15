@@ -9,10 +9,10 @@
            sync-j="4" />
 
   <!-- nexell_linux: prototype, u-boot, kernel -->
-  <project path="linux/prototype/pyrope" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="master" />
-  <project path="linux/bootloader/u-boot-2013.x" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="master" />
-  <project path="linux/kernel/kernel-3.4.x" name="kernel/kernel-3.4.x" groups="device" remote="nexell_linux" revision="master" />
-  <project path="linux/pyrope" name="pyrope" groups="device" remote="nexell_linux" revision="master" />
+  <project path="prototype/pyrope" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="master" />
+  <project path="bootloader/u-boot-2013.x" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="master" />
+  <project path="kernel/kernel-3.4.x" name="kernel/kernel-3.4.x" groups="device" remote="nexell_linux" revision="master" />
+  <project path="pyrope" name="pyrope" groups="device" remote="nexell_linux" revision="master" />
 
   <!--<project path="prototype" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="master" />-->
   <!--<project path="u-boot" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="master" />-->
