@@ -2,19 +2,20 @@
 <manifest>
 
   <remote name="nexell_linux"
-          fetch="." />
+          fetch="../" />
 
   <default revision="master"
            remote="nexell_linux"
            sync-j="4" />
 
   <!-- nexell_linux: prototype, u-boot, kernel -->
-  <project path="prototype/s5p4418" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
-  <project path="prototype/s5p6818" name="prototype/nxp5430" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
-  <project path="bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
-  <project path="kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
-  <project path="platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
-  <project path="platform/s5p6818" name="nxp5430" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
-  <project path="platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
+  <project path="prototype/s5p4418" name="linux/prototype/pyrope" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
+  <project path="prototype/s5p6818" name="linux/prototype/nxp5430" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
+  <project path="bootloader/u-boot-2014.07" name="linux/u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
+  <project path="kernel/kernel-3.4.39" name="linux/kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
+  <project path="platform/s5p4418" name="linux/pyrope" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
+  <project path="platform/s5p6818" name="linux/nxp5430" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
+  <project path="platform/common" name="linux/platform/common" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
+<project path="patch" name="patch" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-20151019" />
   
 </manifest>
