@@ -9,12 +9,11 @@
            sync-j="4" />
 
   <!-- nexell_linux: prototype, u-boot, kernel -->
-  <project path="prototype/s5p4418" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="linux-corona" />
-  <project path="prototype/s5p6818" name="prototype/nxp5430" groups="device" remote="nexell_linux" revision="linux-corona" />
-  <project path="bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="linux-corona" />
-  <project path="kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-corona" />
-  <project path="platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="linux-corona" />
-  <project path="platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="linux-corona" />
+  <project path="prototype/s5p4418" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="linux-IAHD" />
+  <project path="bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="linux-IAHD" />
+  <project path="kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-IAHD" />
+  <project path="platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="linux-IAHD" />
+  <project path="platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="linux-IAHD" />
 
 
 </manifest>
