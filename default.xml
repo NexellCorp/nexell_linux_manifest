@@ -9,16 +9,14 @@
            sync-j="4" />
 
   <!-- nexell_linux: prototype, u-boot, kernel -->
-  <project path="prototype/pyrope" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="master" />
-  <project path="bootloader/u-boot-2013.x" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="master" />
-  <project path="kernel/kernel-3.4.x" name="kernel/kernel-3.4.x" groups="device" remote="nexell_linux" revision="master" />
-  <project path="pyrope" name="pyrope" groups="device" remote="nexell_linux" revision="master" />
+    <project path="linux/prototype/s5p4418" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_3rd" />
+	  <project path="linux/prototype/s5p6818" name="prototype/nxp5430" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_3rd" />
+	    <project path="linux/bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_3rd" />
+		  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_3rd" />
+		    <project path="linux/platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_3rd" />
+			  <project path="linux/platform/s5p6818" name="nxp5430" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_3rd" />
+			    <project path="linux/platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_3rd" />
 
-  <!--<project path="prototype" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="master" />-->
-  <!--<project path="u-boot" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="master" />-->
-  <!--<project path="kernel" name="kernel/kernel-3.4.x" groups="device" remote="nexell_linux" revision="master" />-->
-  <!--<project path="tools" name="tools" groups="device" remote="nexell_linux" revision="master" />-->
-  <!--<project path="library" name="library" groups="device" remote="nexell_linux" revision="master" />-->
-  <!--<project path="apps" name="apps" groups="device" remote="nexell_linux" revision="master" />-->
+
 
 </manifest>
