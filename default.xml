@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="nexell_linux"
-          fetch="." />
+  <include name="remote_nexell_ssh.xml" />
 
-  <default revision="master"
-           remote="nexell_linux"
-           sync-j="4" />
-
-  <!-- nexell_linux: prototype, u-boot, kernel -->
-  <project path="prototype/nxp5430" name="prototype/nxp5430" groups="device" remote="nexell_linux" revision="linux-nxp5430-dev" />
-  <project path="bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="linux-nxp5430-dev" />
-  <project path="kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-nxp5430-dev" />
-  <project path="nxp5430" name="nxp5430" groups="device" remote="nexell_linux" revision="linux-nxp5430-dev" />
-
+  <!-- nexell: prototype, u-boot, kernel -->
+  <project path="prototype/nxp5430" name="linux_prototype-nxp5430" groups="device" remote="nexell" revision="linux-nxp5430-dev" />
+  <project path="bootloader/u-boot-2014.07" name="u-boot-2014.07" groups="device" remote="nexell" revision="linux-nxp5430-dev" />
+  <project path="kernel/kernel-3.4.39" name="linux_kernel-3.4.39" groups="device" remote="nexell" revision="linux-nxp5430-dev" />
+  <project path="nxp5430" name="nxp5430_linux" groups="device" remote="nexell" revision="linux-nxp5430-dev" />
 
 </manifest>
