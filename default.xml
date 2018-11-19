@@ -9,7 +9,7 @@
   <project path="bootloader/u-boot-2014.07" name="u-boot-2014.07" groups="device" remote="nexell" revision="lollipop-5.1.1_r6-20151019" />
   <project path="kernel/kernel-3.4.39" name="linux_kernel-3.4.39" groups="device" remote="nexell" revision="lollipop-5.1.1_r6-20151019" />
   <project path="platform/s5p4418" name="pyrope_linux" groups="device" remote="nexell" revision="lollipop-5.1.1_r6-20151019" />
-  <project path="platform/s5p6818" name="nxp543_linux" groups="device" remote="nexell" revision="lollipop-5.1.1_r6-20151019" />
+  <project path="platform/s5p6818" name="nxp5430_linux" groups="device" remote="nexell" revision="lollipop-5.1.1_r6-20151019" />
   <project path="linux_platform_common" name="linux_platform_common" groups="device" remote="nexell" revision="lollipop-5.1.1_r6-20151019" />
   <project path="patch" name="nexell_patch" groups="device" remote="nexell" revision="lollipop-5.1.1_r6-20151019" />
   
