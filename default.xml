@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="nexell_linux"
-          fetch="." />
+  <include name="remote_nexell_ssh.xml" />
 
-  <default revision="master"
-           remote="nexell_linux"
-           sync-j="4" />
-
-  <!-- nexell_linux: prototype, u-boot, kernel -->
-  <project path="prototype/pyrope" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="linux-pyrope-dev" />
-  <project path="bootloader/u-boot-2013.x" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="linux-pyrope-dev" />
-  <project path="kernel/kernel-3.4.x" name="kernel/kernel-3.4.x" groups="device" remote="nexell_linux" revision="linux-pyrope-dev" />
-  <project path="kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-pyrope-dev" />
-  <project path="pyrope" name="pyrope" groups="device" remote="nexell_linux" revision="linux-pyrope-dev" />
-
+  <!-- nexell: prototype, u-boot, kernel -->
+  <project path="prototype/pyrope" name="linux_prototype-pyrope" groups="device" remote="nexell" revision="linux-pyrope-dev" />
+  <project path="bootloader/u-boot-2013.x" name="u-boot-2013.x" groups="device" remote="nexell" revision="linux-pyrope-dev" />
+  <project path="kernel/kernel-3.4.x" name="linux_kernel-3.4.x" groups="device" remote="nexell" revision="linux-pyrope-dev" />
+  <project path="kernel/kernel-3.4.39" name="linux_kernel-3.4.39" groups="device" remote="nexell" revision="linux-pyrope-dev" />
+  <project path="pyrope" name="pyrope_linux" groups="device" remote="nexell" revision="linux-pyrope-dev" />
 
 </manifest>
